@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+:root{
+    --gutter : 5rem;
+}
+
+.main{
+    overflow: hidden;
+    width: 100vw;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* line-height: 5rem; */
+    align-items: center;
+    background: #0A2640;
+    justify-content: space-between;
+}
+
+.nav>div{
+    display: flex;
+    margin-left: var(--gutter);
+    margin-right: var(--gutter);
+}
+
+.navElements{
+    display: flex;
+    gap: 60px;
+    font-size: 17px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-items{
+    color: rgb(255, 255, 255);
+}
+
+
+/* ----- navbar  -----------------  */
+
+.header{
+    display: flex;
+    /* margin: var(--gutter); */
+    /* margin-top: 50px; */
+    gap: 30px;
+    background: #0A2640;
+    align-items: center;
+}
+
+.header{
+    padding: var(--gutter);
+    padding-top: 30px;
+}
+
+.header_container_first p{
+    margin: 15px 0 30px 0;
+}
+
+
+/* ======================== secondcontainer ----------- */
+
+
+.secondContainer{
+    width: 100%;
+    height: 750px;
+}
+
+.secondContaienr_first{
+    width: 100%;
+    height: 40%;
+}
+
+.secondContaienr_second{
+    width: 100%;
+    height: auto;
+}
+
+.card-width{
+    width: 280px;
+    background-color: transparent;
+    border:none;
+}
+
+
+
+/* ============third container== ====== */
+
+.thirdcontainer{
+    width: 100vw;
+    min-height: 640px;
+    padding: 100px 0 0 0;
+    gap: 3rem;
+}
+
+.thirdcontainer>div{
+    display: flex;
+    width: 30%;
+    /* justify-content: flex-end; */
+    min-height: 540px;
+}
+
+.thirdcontainer_first{
+    justify-content: flex-end;
+}
+
+.thirdcontainer_second{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* justify-content: flex-start; */
+}
+
+.thirdcontainer_second_v{
+    padding-left: 50px;
+}
+
